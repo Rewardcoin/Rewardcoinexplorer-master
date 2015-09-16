@@ -223,7 +223,7 @@ if( COINPOS )
     $diff .= ' &middot;' . sprintf( '%.8f', $ace['current_difficulty_pos'] );
 }
 echo "<tr><td></td><td>$diffNom:</td><td>$diff</td></tr>";
-echo '<tr><td>Powered by <a href="https://github.com/stolendata/rpc-ace/" target="_blank">RPC Ace</a> v' . ACEVERSION . ' (RPC AnyCoin Explorer)</td><td>Network hashrate: </td><td>' . $ace['hashrate_mhps'] . ' b/s</td></tr><tr><td> </td><td></td><td></td></tr></table>';
+echo '<tr><td>Powered by <a href="https://github.com/stolendata/rpc-ace/" target="_blank">RPC Ace</a> v' . ACEVERSION . ' (RPC AnyCoin Explorer)</td><td>Network hashrate: </td><td>' . $ace['hashrate_mhps'] . ' h/s</td></tr><tr><td> </td><td></td><td></td></tr></table>';
 
 // list of blocks
 if( isset($ace['blocks']) )
